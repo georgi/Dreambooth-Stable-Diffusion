@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+omegaconf = "*"
+einops = "*"
+pytorch-lightning = "==1.6.5"
+test-tube = "*"
+transformers = "*"
+kornia = "*"
+taming-transformers = {editable = true, git = "https://github.com/CompVis/taming-transformers.git", ref = "master"}
+clip = {editable = true, git = "https://github.com/openai/CLIP.git", ref = "main"}
+setuptools = "==59.5.0"
+pillow = "==9.0.1"
+torchmetrics = "==0.6.0"
+protobuf = "==3.20.1"
+gdown = "*"
+diffusers = {extras = ["training"], version = "==0.3.0"}
+ftfy = "*"
+huggingface_hub = "*"
+captionizer = "==1.0.1"
+jupyter = "*"
